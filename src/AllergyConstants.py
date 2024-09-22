@@ -1,0 +1,11 @@
+
+CLINICAL_STATUS = "clinicalStatus"
+CODING = "coding"
+CODE = "code"
+VERIFICATION_STATUS = "verificationStatus"
+CATEGORY = "category"
+CRITICALITY = "criticality"
+REACTION = "reaction"
+MANIFESTATION = "manifestation"
+RESOURCE = "resource"
+RESOURCE_TYPE = "resourceType"

@@ -1,0 +1,27 @@
+Can you summarize in readable text?
+"resourceType": "AllergyIntolerance",
+    "clinicalStatus": "active",
+    "verificationStatus": "confirmed",
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "195967001",
+          "display": "Cashew nut"
+        }
+      ]
+    },
+
+    "note": [
+      {
+        "text": "Patient has a severe allergy to cashew nuts."
+      }
+
+
+
+The summary indicates that there is an active and confirmed case of a high-criticality food allergy to cashew nuts, as recorded in the AllergyIntolerance resource. The clinical details specifically mention that the patient has a severe allergy to cashew nuts.

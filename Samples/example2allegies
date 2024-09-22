@@ -1,0 +1,77 @@
+Can you summarize in small paragraph per each allergy?
+  {
+    "resourceType": "AllergyIntolerance",
+    "clinicalStatus": "active",
+    "verificationStatus": "confirmed",
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "195967001",
+          "display": "Cashew nut"
+        }
+      ]
+    },
+    "note": [
+      {
+        "text": "Patient has a severe allergy to cashew nuts."
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "medication"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "372756007",
+          "display": "Aspirin"
+        }
+      ]
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylaxis"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+
+1Cashew Nut Allergy:
+The patient is actively dealing with a confirmed high-criticality food allergy to cashew nuts. This severe allergy is specifically to cashew nuts as identified by the SNOMED code (195967001). The clinical notes explicitly mention the severity, highlighting the importance of avoiding cashew nuts to prevent severe allergic reactions.
+2 Aspirin Allergy:
+This entry details an active and confirmed allergy to the medication aspirin, categorized under high criticality due to its potential to cause severe reactions such as anaphylaxis. This allergic response to aspirin is classified with a SNOMED code (372756007) and the reaction specifically involves anaphylaxis, a life-threatening condition that must be carefully managed to avoid any serious health consequences.

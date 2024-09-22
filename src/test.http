@@ -1,0 +1,76 @@
+### Test first library
+POST https://connectathontest.cognitiveservices.azure.com/language/analyze-text/jobs?api-version=2023-04-01
+Content-Type: application/json
+Ocp-Apim-Subscription-Key: 88793b6497cb401989ce3110810301fa
+
+{
+  "displayName": "Text Abstractive Summarization Task Example",
+  "analysisInput": {
+    "documents": [
+      {
+        "id": "1",
+        "language": "en",
+        "text": "At Microsoft, we have been on a quest to advance AI beyond existing techniques, by taking a more holistic, human-centric approach to learning and understanding. As Chief Technology Officer of Azure AI services, I have been working with a team of amazing scientists and engineers to turn this quest into a reality. In my role, I enjoy a unique perspective in viewing the relationship among three attributes of human cognition: monolingual text (X), audio or visual sensory signals, (Y) and multilingual (Z). At the intersection of all three, there’s magic—what we call XYZ-code as illustrated in Figure 1—a joint representation to create more powerful AI that can speak, hear, see, and understand humans better. We believe XYZ-code enables us to fulfill our long-term vision: cross-domain transfer learning, spanning modalities and languages. The goal is to have pretrained models that can jointly learn representations to support a broad range of downstream AI tasks, much in the way humans do today. Over the past five years, we have achieved human performance on benchmarks in conversational speech recognition, machine translation, conversational question answering, machine reading comprehension, and image captioning. These five breakthroughs provided us with strong signals toward our more ambitious aspiration to produce a leap in AI capabilities, achieving multi-sensory and multilingual learning that is closer in line with how humans learn and understand. I believe the joint XYZ-code is a foundational component of this aspiration, if grounded with external knowledge sources in the downstream AI tasks."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "kind": "AbstractiveSummarization",
+      "taskName": "Text Abstractive Summarization Task 1"
+    }
+  ]
+}
+
+### Next request
+GET https://connectathontest.cognitiveservices.azure.com/language/analyze-text/jobs/76df4e98-fda4-499e-b28d-f74c6427213b?api-version=2023-04-01
+Content-Type: application/json
+Ocp-Apim-Subscription-Key: 88793b6497cb401989ce3110810301fa
+
+### Test second library
+POST https://connectathontest.cognitiveservices.azure.com/language/analyze-text/jobs?api-version=2023-04-01
+Content-Type: application/json
+Ocp-Apim-Subscription-Key: 88793b6497cb401989ce3110810301fa
+
+{
+  "displayName": "Text Abstractive Summarization Task Example",
+  "analysisInput": {
+    "documents": [
+      {
+        "id": "1",
+        "language": "en",
+        "text": "allergy - medication - Criticality: High, Substance with penicillin structure and antibacterial mechanism of action (substance) (373270004). - - Criticality: undefined undefined (no-known-food-allergies)"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "kind": "AbstractiveSummarization",
+      "taskName": "Text Abstractive Summarization Task 1"
+    }
+  ]
+}
+
+### Test third library
+POST https://connectathontest.cognitiveservices.azure.com/language/analyze-text/jobs?api-version=2023-04-01
+Content-Type: application/json
+Ocp-Apim-Subscription-Key: 88793b6497cb401989ce3110810301fa
+
+{
+  "displayName": "Assertion Extraction Task",
+  "analysisInput": {
+    "documents": [
+      {
+        "id": "1",
+        "language": "en",
+        "text": "The patient has a history of heart disease but denies any history of diabetes."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "kind": "AssertionExtraction",
+      "taskName": "Extract Medical Assertions"
+    }
+  ]
+}

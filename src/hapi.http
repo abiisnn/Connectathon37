@@ -1,0 +1,5 @@
+### GET allergies
+GET http://hapi.fhir.org/baseR4/metadata
+
+### 
+GET http://hapi.fhir.org/baseR4/AllergyIntolerance

@@ -1,0 +1,121 @@
+[
+	{
+		"role": "system",
+		"content": [
+			{
+				"type": "text",
+				"text": "You are an AI assistant that helps people find information."
+			}
+		]
+	},
+	{
+		"role": "user",
+		"content": [
+			{
+				"type": "text",
+				"text": "Can you summarize in readable text?"
+			},
+			{
+				"type": "text",
+				"text": "\"resourceType\": \"AllergyIntolerance\","
+			},
+			{
+				"type": "text",
+				"text": "    \"clinicalStatus\": \"active\","
+			},
+			{
+				"type": "text",
+				"text": "    \"verificationStatus\": \"confirmed\","
+			},
+			{
+				"type": "text",
+				"text": "    \"type\": \"allergy\","
+			},
+			{
+				"type": "text",
+				"text": "    \"category\": ["
+			},
+			{
+				"type": "text",
+				"text": "      \"food\""
+			},
+			{
+				"type": "text",
+				"text": "    ],"
+			},
+			{
+				"type": "text",
+				"text": "    \"criticality\": \"high\","
+			},
+			{
+				"type": "text",
+				"text": "    \"code\": {"
+			},
+			{
+				"type": "text",
+				"text": "      \"coding\": ["
+			},
+			{
+				"type": "text",
+				"text": "        {"
+			},
+			{
+				"type": "text",
+				"text": "          \"system\": \"http://snomed.info/sct\","
+			},
+			{
+				"type": "text",
+				"text": "          \"code\": \"195967001\","
+			},
+			{
+				"type": "text",
+				"text": "          \"display\": \"Cashew nut\""
+			},
+			{
+				"type": "text",
+				"text": "        }"
+			},
+			{
+				"type": "text",
+				"text": "      ]"
+			},
+			{
+				"type": "text",
+				"text": "    },"
+			},
+			{
+				"type": "text",
+				"text": "\n"
+			},
+			{
+				"type": "text",
+				"text": "    \"note\": ["
+			},
+			{
+				"type": "text",
+				"text": "      {"
+			},
+			{
+				"type": "text",
+				"text": "        \"text\": \"Patient has a severe allergy to cashew nuts.\""
+			},
+			{
+				"type": "text",
+				"text": "      }"
+			},
+			{
+				"type": "text",
+				"text": "\n"
+			}
+		]
+	},
+	{
+		"role": "assistant",
+		"content": [
+			{
+				"type": "text",
+				"text": "The summary indicates that there is an active and confirmed case of a high-criticality food allergy to cashew nuts, as recorded in the AllergyIntolerance resource. The clinical details specifically mention that the patient has a severe allergy to cashew nuts."
+			}
+		]
+	}
+]
