@@ -1,7 +1,7 @@
 ### Test first library
 POST https://connectathontest.cognitiveservices.azure.com/language/analyze-text/jobs?api-version=2023-04-01
 Content-Type: application/json
-Ocp-Apim-Subscription-Key: 88793b6497cb401989ce3110810301fa
+Ocp-Apim-Subscription-Key: mykey
 
 {
   "displayName": "Text Abstractive Summarization Task Example",
@@ -25,12 +25,12 @@ Ocp-Apim-Subscription-Key: 88793b6497cb401989ce3110810301fa
 ### Next request
 GET https://connectathontest.cognitiveservices.azure.com/language/analyze-text/jobs/76df4e98-fda4-499e-b28d-f74c6427213b?api-version=2023-04-01
 Content-Type: application/json
-Ocp-Apim-Subscription-Key: 88793b6497cb401989ce3110810301fa
+Ocp-Apim-Subscription-Key: mykey
 
 ### Test second library
 POST https://connectathontest.cognitiveservices.azure.com/language/analyze-text/jobs?api-version=2023-04-01
 Content-Type: application/json
-Ocp-Apim-Subscription-Key: 88793b6497cb401989ce3110810301fa
+Ocp-Apim-Subscription-Key: mykey
 
 {
   "displayName": "Text Abstractive Summarization Task Example",
@@ -54,7 +54,7 @@ Ocp-Apim-Subscription-Key: 88793b6497cb401989ce3110810301fa
 ### Test third library
 POST https://connectathontest.cognitiveservices.azure.com/language/analyze-text/jobs?api-version=2023-04-01
 Content-Type: application/json
-Ocp-Apim-Subscription-Key: 88793b6497cb401989ce3110810301fa
+Ocp-Apim-Subscription-Key: mykey
 
 {
   "displayName": "Assertion Extraction Task",

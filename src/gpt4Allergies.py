@@ -79,7 +79,7 @@ def getEligibleTextToGetAllergySummary(allergyResource):
 import json
 
 # Open and read the JSON file
-with open('C:\\Connectathon\\Samples\\AllergiesBundle.json', 'r') as file:
+with open('C:\\Connectathon37\\Samples\\AllergiesDevTest.json', 'r') as file:
     data = json.load(file)
 
 # We just want entries
