@@ -1,7 +1,7 @@
 # Connectathon37
 This is a playground to get summarized text given Allergies
 
-Given a Bundle of Allergies, this script will take the active or confirmed allergies and get the summary of them.
+Given a Bundle of Allergies, this script will take the active or confirmed allergies and get the summary of them. (it will also verify that the allergy is active or confirmed)
 
 Let say you send this:
 ```json
